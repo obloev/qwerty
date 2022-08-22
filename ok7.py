@@ -6,12 +6,12 @@ def check(n):
 
 def get(n):
     s = i = 0
-    
+
     while s < n:
         i += 1
         if check(i):
             s += 1
-    
+
     return i
 
 
